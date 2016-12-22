@@ -1,5 +1,13 @@
 var React = require('react');
 
-var About = () => { return <h2>About Component</h2>; }
+var About = () => {
+  return (
+    <div>
+      <h1 className="text-center">About</h1>
+      <p>This is a weather application built on React.
+      </p>
+    </div>
+  );
+}
 
 module.exports = About;
